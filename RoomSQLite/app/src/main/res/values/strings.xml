@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RoomSQLite</string>
+    <string name="title_actionBar">TO DO</string>
+    <string name="title_task">TASK</string>
+    <string name="title_user">USER</string>
+    <string name="text_assign">Assigned by unassigned</string>
+</resources>

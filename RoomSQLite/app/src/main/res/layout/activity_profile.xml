@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+>
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="10dp"
+                  android:layout_marginLeft="60dp"
+                  android:layout_marginTop="35dp"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/blue_800"
+                  android:textSize="20dp"
+                  android:text="Title :"
+                  android:layout_marginLeft="20dp"
+        />
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textSize="20dp"
+                  android:text="name"
+                  android:id="@+id/tvTaskNameDetail"
+                  android:textColor="@color/grey_900"
+                  android:layout_marginLeft="10dp"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal"
+                  android:padding="10dp"
+                  android:layout_marginLeft="60dp"
+                  android:layout_marginTop="0dp"
+    >
+        <TextView android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:textColor="@color/blue_800"
+                  android:textSize="20dp"
+                  android:text="Completed :"
+                  android:layout_marginLeft="20dp"
+        />
+        <CheckBox android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:layout_marginLeft="25dp"
+                  android:id="@+id/checkBox"
+        />
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <LinearLayout android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:orientation="horizontal"
+                      android:padding="10dp"
+                      android:layout_marginLeft="60dp"
+                      android:layout_marginTop="0dp"
+        >
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textColor="@color/blue_800"
+                      android:textSize="20dp"
+                      android:text="Assigned to :"
+                      android:layout_marginLeft="20dp"
+            />
+
+            <TextView android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:textSize="20dp"
+                      android:id="@+id/tvuserNameAssigned"
+                      android:text="name"
+                      android:textColor="@color/grey_900"
+                      android:layout_marginLeft="10dp"
+            />
+
+
+        </LinearLayout>
+        <Spinner android:layout_width="150dp"
+                 android:layout_marginLeft="220dp"
+                 android:id="@+id/spinner"
+                 android:layout_height="35dp">
+
+        </Spinner>
+        <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S A V E"
+                android:id="@+id/btnSave"
+                android:layout_marginLeft="150dp"
+        />
+    </LinearLayout>
+
+</LinearLayout>
